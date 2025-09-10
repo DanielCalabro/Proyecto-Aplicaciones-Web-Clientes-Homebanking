@@ -21,7 +21,10 @@ a{
 /* ---- Header de todas las pag, menos Index ---- */
 
 .div-header{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .nav-header{
     display: flex;
@@ -32,6 +35,7 @@ a{
 display: flex;
 gap: 20px;
 padding-left: 2%;
+
 }
 .nav-right{
     display: flex;
@@ -45,14 +49,17 @@ padding-left: 2%;
 /* -------------- Index -------------> */
 /* ---- Header ---- */
 .item-index{
-    text-align: center;
     font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 /* ---- Main ---- */
 
 .main-index{
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(220,220,220);
 }
 
 .section-index{
@@ -168,23 +175,6 @@ button:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------ Footer ------------> */
 
 footer{
@@ -199,4 +189,6 @@ footer{
 
 .footer-center{
     align-self: end;
+    display: flex;
+    gap: 20px;
 }
