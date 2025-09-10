@@ -1,0 +1,193 @@
+:root{
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    min-height: 60vh;
+}
+
+/* ------------ Index ------------> */
+/* ---- Header ---- */
+.item-index{
+    text-align: center;
+    font-size: 150%;
+}
+
+/* ---- Main ---- */
+
+.main-index{
+    background-color: rgb(244, 244, 244);
+}
+
+.section-index{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-index{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input-index{
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.button-index {
+    width: 10%;
+    background: #2980b9; 
+    color: #fff; 
+    border: none; 
+    padding: 12px; 
+    margin-left: 6rem;
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+
+/* ------------ Inicio ------------> */
+/* ---- Header ---- */
+
+/* ---- Main ---- */
+
+
+
+
+
+
+/* ------------ Cuenta ------------> */
+/* ---- Header ---- */
+
+.div-header{
+    display: flex;
+    flex-direction: column;    
+    background-color: rgb(185, 185, 185);
+    padding: 2rem;
+}
+.div-header-hijo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+/* ---- Main ---- */
+
+.section-cuenta{
+    display: flex;
+    flex-direction: column;
+}
+td{
+    padding: 10px;
+    border-top: 3px solid grey;
+    text-align: center;
+}
+
+
+/* ------------ Transferencias ------------> */
+/* ---- Body ---- */
+
+.body-transferencias{ 
+    background: #e2e5e8; 
+}
+    
+.container-transferencias { 
+    max-width: 400px; 
+    margin: 40px auto; 
+    background: #fff; 
+    padding: 24px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.h2-transferencias { 
+    text-align: center; 
+    color: #2c3e50; 
+}
+
+
+
+
+.label-transferencias { 
+    color: #34495e;
+}
+        
+.input-transferencias, .select-transferencias { 
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.button-transferencias {
+    width: 100%; 
+    background: #2980b9; 
+    color: #fff; 
+    border: none; 
+    padding: 12px; 
+    margin-top: 24px; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+button:hover { 
+    background: #1c5980; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ Footer ------------> */
+
+footer{
+    height: 110px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(47, 46, 46);
+    color: white;
+}
+
+.footer-center{
+    align-self: end;
+}

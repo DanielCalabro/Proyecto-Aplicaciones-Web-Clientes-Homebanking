@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>Homebanking</title>
   </head>
   <body>
@@ -16,10 +16,9 @@
         <div>
             <nav>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Cuenta</a></li>
-                <li><a href="#">Transferencias</a></li>
+                <li><a href="cuenta.html">Cuenta</a></li>
+                <li><a href="transferencias.html">Transferencias</a></li>
                 <li><a href="#">Tarjetas</a></li>
-                <li><a href="#">Préstamos</a></li>
                 <li><a href="#">Compra de Dolares</a></li>
                 <li><a href="#">Pago de Servicios</a></li>
                 <li><a href="#">Puntos</a></li>
@@ -27,7 +26,9 @@
         </div>
         <div>
           <li><a href="#">Centro de Ayuda</a></li>
-          <img src="/img/apagado.png" alt="Cerrar sesión" width="30" />
+          <a href="/index.html">
+            <img src="/img/apagado.png" alt="Cerrar sesión" width="30" />
+          </a>
         </div>
       </div>
     </header>
@@ -87,8 +88,8 @@
 
             <a href="#">
                 <div>
-                    <img src="/img/Prestamo.jpg" alt="Prestamo" width="100">
-                    Préstamos                    
+                    <img src="/img/Prestamo.jpg" alt="Puntos" width="100">
+                    Puntos                    
                 </div>
             </a>
             <a href="#">
@@ -101,22 +102,17 @@
 
 
 
-
-
-
-
-
-
-
     </main>
+
+
     <footer>
         <div>
             <img src="/img/Logo blanco .png" alt="Logo Santander Blanco" width="250" />
         </div>
-        <div>
-            <a href="#">Términos y condiciones</a>
-            <a href="#">Seguridad</a>
-            <a href="#">Contacto</a>
+        <div class="footer-center">
+            <a href="#" style="color: white">Términos y condiciones</a>
+            <a href="#" style="color: white">Seguridad</a>
+            <a href="#" style="color: white">Contacto</a>
         </div>
         <p>2025 Banco Santander S.A. Todos los derechos reservados.</p>
     </footer>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Transferencias Bancarias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="body-transferencias">
+    
+        <header>
+      <div>
+        <div>
+          <img src="/img/logo.png" alt="Logo Bank" width="50" />
+          <h1>Homebanking</h1>
+        </div>
+        <div>
+            <nav>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="cuenta.html">Cuenta</a></li>
+                <li><a href="#">Tarjetas</a></li>
+                <li><a href="#">Compra de Dolares</a></li>
+                <li><a href="#">Pago de Servicios</a></li>
+                <li><a href="#">Puntos</a></li>
+            </nav>
+        </div>
+        <div>
+          <li><a href="#">Centro de Ayuda</a></li>
+          <a href="/index.html">
+            <img src="/img/apagado.png" alt="Cerrar sesión" width="30" />
+          </a>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+    <div class="container-transferencias">
+        <h2 class="h2-transferencias">Transferencia Bancaria</h2>
+        <form>
+            <label class="label-transferencias" for="cuenta">Cuenta Origen</label>
+            <select class="select-transferencias" id="cuenta" name="cuenta" required>
+                <option value="">Seleccione su cuenta</option>
+                <option value="123456">123456 - Caja de Ahorro en Pesos</option>
+                <option value="654321">654321 - Caja de Ahorro en Dolares</option>
+            </select>
+
+            <label class="label-transferencias" for="Destinatario">Cuenta Destino</label>
+            <input class="input-transferencias" type="text" id="Destinatario" name="cuentaDestino" placeholder="Número de cuenta destino" required>
+
+            <label class="label-transferencias" for="monto">Monto a transferir</label>
+            <input class="input-transferencias" type="number" id="monto" name="monto" min="1" step="0.01" placeholder="Ej: 1000.00" required>
+
+            <label class="label-transferencias" for="descripcion">Descripción (opcional)</label>
+            <input class="input-transferencias" type="text" id="descripcion" name="descripcion" maxlength="100" placeholder="Motivo de la transferencia">
+
+            <button class="button-transferencias" type="submit">Realizar Transferencia</button>
+        </form>
+    </div>
+    </main>
+ <footer>
+        <div>
+            <img src="/img/Logo blanco .png" alt="Logo Santander Blanco" width="250" />
+        </div>
+        <div class="footer-center">
+            <a href="#" style="color: white">Términos y condiciones</a>
+            <a href="#" style="color: white">Seguridad</a>
+            <a href="#" style="color: white">Contacto</a>
+        </div>
+        <p>2025 Banco Santander S.A. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
