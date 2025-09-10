@@ -11,9 +11,38 @@ body{
 main {
     padding: 20px;
     min-height: 60vh;
+    background: #e2e5e8; 
+}
+a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
 }
 
-/* ------------ Index ------------> */
+/* ---- Header de todas las pag, menos Index ---- */
+
+.div-header{
+    text-align: center;
+}
+.nav-header{
+    display: flex;
+    font-size: 120%;
+    list-style: none;
+}
+.nav-left{
+display: flex;
+gap: 20px;
+padding-left: 2%;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    padding-right: 2%;
+    margin-left:auto;
+    align-items: center;
+}
+
+
+/* -------------- Index -------------> */
 /* ---- Header ---- */
 .item-index{
     text-align: center;
@@ -59,12 +88,9 @@ main {
 }
 
 
-/* ------------ Inicio ------------> */
-/* ---- Header ---- */
+/* -------------- Inicio --------------> */
 
 /* ---- Main ---- */
-
-
 
 
 
@@ -72,23 +98,12 @@ main {
 /* ------------ Cuenta ------------> */
 /* ---- Header ---- */
 
-.div-header{
+.div-header-cuenta{
     display: flex;
     flex-direction: column;    
     background-color: rgb(185, 185, 185);
     padding: 2rem;
 }
-.div-header-hijo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav{
-    display: flex;
-    gap: 2rem;
-}
-
 
 
 /* ---- Main ---- */
@@ -106,10 +121,6 @@ td{
 
 /* ------------ Transferencias ------------> */
 /* ---- Body ---- */
-
-.body-transferencias{ 
-    background: #e2e5e8; 
-}
     
 .container-transferencias { 
     max-width: 400px; 
@@ -124,8 +135,6 @@ td{
     text-align: center; 
     color: #2c3e50; 
 }
-
-
 
 
 .label-transferencias { 
