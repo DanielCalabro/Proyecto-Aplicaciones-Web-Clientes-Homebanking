@@ -10,17 +10,17 @@
     <header">
           <div class="div-header">
             <img src="/img/logo.png" alt="Logo Bank" width="50" />
-            <h1>Homebanking</h1>
+            <h1>Santander</h1>
           </div>
           <div class="nav-header">            
                 <nav class="nav-left" >
                     <li><a href="inicio.html">Inicio</a></li>
                     <li><a href="cuenta.html">Cuenta</a></li>
                     <li><a href="transferencias.html">Transferencias</a></li>
-                    <li><a href="#">Tarjetas</a></li>
-                    <li><a href="#">Compra de Dolares</a></li>
-                    <li><a href="#">Pago de Servicios</a></li>
-                    <li><a href="#">Puntos</a></li>
+                    <li><a href="tarjetas.html">Tarjetas</a></li>
+                    <li><a href="divisas.html">Compra de Dolares</a></li>
+                    <li><a href="servicios.html">Pago de Servicios</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
                 </nav>
                 <div class="nav-right">
                     <li><a href="#">Centro de Ayuda</a></li>
@@ -29,22 +29,24 @@
                     </a>                    
                 </div>
             </div>
-        </div>
-    
+        </div>    
     </header>
-    <main class="main-inicio">
+
+    <main>
         <h2>Hola, Daniel!</h2>
         <p>Bienvenido a tu Homebanking</p>
         <hr>
 
-    <section>
+        <section class="section-inicio">
             <h2>Bienvenido a tu Homebanking</h2>
             <p>
             Resumen de cuenta
             </p>
         </section>
-        <div>
-            <div>
+
+        <div class="main-div-inicio">
+            <div class="cuenta-inicio">                
+                <a href="cuenta.html">
                 <p>
                     Cuenta única 105-546521/2
                     <br><br>
@@ -52,59 +54,68 @@
                     <br>
                     U$S 500.00
                 </p>
+            </a>
             </div>
-            <div>
+            <a href="tarjetas.html">
+            <div class="visa-inicio">
                 <h3>
-                    <img src="/img/visa.webp" alt="Visa" width="50">                
+                    <img src="/img/visa-black.png" alt="Visa" width="50">                
                     Terminada en 7731
                 </h3>
-                <p>Cierra el 27/09/2025 | Vto 05/10/2025</p>
+                <h4>Cierra el 27/09/2025 | Vto 05/10/2025</h4>
                    $ 1,184,000.10
                     <br>
                     U$S 0.00
             </div>
-            <div>
+            </a>
+            <a href="tarjetas.html">
+            <div class="amex-inicio">
                 <h3>
                     <img src="/img/amex.jpeg" alt="Amex" width="50">                
                     Terminada en 9451
                 </h3>
-                <p>Cierra el 28/09/2025 | Vto 08/10/2025</p>
+                <h4>Cierra el 28/09/2025 | Vto 08/10/2025</h4>
                    $ 31,754.20
                     <br>
                     U$S 0.00
             </div>
         </div>
+        </a>
+
+        <hr>
         <h4>Accesos rápidos</h4>
-        <section>
-            <a href="#">
-                <div>
-                    <img src="/img/transferencia.jpg" alt="Transferencia" width="100">
-                    Transferencias                    
-                </div>
-            </a>
-            <a href="#">
-                <div>
-                    <img src="/img/Pago Serv.png" alt="Pago Ser." width="100">
-                    Pago de Servicios                    
-                </div>
-            </a>
-
-            <a href="#">
-                <div>
-                    <img src="/img/Prestamo.jpg" alt="Puntos" width="100">
-                    Puntos                    
-                </div>
-            </a>
-            <a href="#">
-                <div>
-                    <img src="/img/dolar.png" alt="Dolares" width="100">
-                    Compra de Divisas                    
-                </div>
-            </a>
-        </section>
-
-
-
+        
+        <section class="sectio-inicio-2">            
+            <a href="transferencias.html">                
+                <div class="div-hijo-incio">
+                <img src="/img/transferencia.jpg" alt="Transferencia" width="100">                                                
+                <h4>Transferencias</h4>
+            </div>               
+        </a>
+        
+        <a href="servicios.html">
+            <div class="div-hijo-incio">
+                <img src="/img/Pago Serv.png" alt="Pago Ser." width="100">
+                <h4>Pago de Servicios</h4>                
+            </div>
+        </a>
+        
+        <a href="promociones.html">
+            <div class="div-hijo-incio">
+                <img src="/img/promociones.png" alt="Puntos" width="100">
+                <h4>Promociones</h4>
+            </div>
+        </a>
+        
+        <a href="divisas.html">
+            <div class="div-hijo-incio">
+                <img src="/img/dolar.png" alt="Dolares" width="100">
+                <h4> Compra de Divisas</h4>
+            </div>
+        </a>
+    </section>
+    
+    
     </main>
 
 
