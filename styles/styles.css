@@ -219,7 +219,7 @@ button:hover {
     background: #1c5980; 
 }
 
-/* ------------ Transferencias ------------ */
+/* ------------ Compra Divisa ------------ */
 
 /* ---- Main ---- */
  .compra-divisas {
@@ -266,9 +266,20 @@ button:hover {
     text-align: center;
 }
 
+/* ------------ Tarjeta ------------ */
 
+/* ---- Main ---- */
 
+.gastos-tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.tabla-gastos{
+    width: 120%;
+    
+}
 
 /* ------------ Footer ------------> */
 
@@ -277,7 +288,7 @@ footer{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 2rem;
     background-color: rgb(47, 46, 46);
     color: white;
 }
