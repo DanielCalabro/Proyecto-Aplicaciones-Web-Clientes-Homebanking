@@ -13,11 +13,12 @@
             <h1>Santander</h1>
           </div>
           <div class="nav-header">            
-                <nav class="nav-left" >
+               <nav class="nav-left" >
                     <li><a href="inicio.html">Inicio</a></li>
                     <li><a href="cuenta.html">Cuenta</a></li>
                     <li><a href="transferencias.html">Transferencias</a></li>
                     <li><a href="tarjetas.html">Tarjetas</a></li>
+                    <li><a href="divisas.html">Compra de Dolares</a></li>
                     <li><a href="servicios.html">Pago de Servicios</a></li>
                     <li><a href="promociones.html">Promociones</a></li>
                 </nav>
@@ -30,6 +31,31 @@
             </div>
         </div>    
     </header>
-    
+
+       <main>
+        <section class="compra-divisas">
+            <h2>Compra de Dólares</h2>
+            <div class="valor-dolar">
+                Valor actual del dólar: <strong>1450 ARS</strong>
+            </div>  <!-- strong negrita -->
+            <form>
+                <label for="monto">Monto en dólares a comprar:</label>
+                <input type="number" id="monto" name="monto" min="100" step="0.01" required>
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="/img/Logo blanco .png" alt="Logo Santander Blanco" width="250" />
+        </div>
+        <div class="footer-center">
+            <a href="#" style="color: white">Términos y condiciones</a>
+            <a href="#" style="color: white">Seguridad</a>
+            <a href="#" style="color: white">Contacto</a>
+        </div>
+        <p>2025 Banco Santander S.A. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
