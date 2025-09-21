@@ -32,5 +32,78 @@
         </div>    
     </header>
     
+    <main>
+    <div>
+        <h2>Pago de Servicios</h2>
+        <form>
+            <label for="servicio">Seleccione el servicio:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="">--Seleccione--</option>
+                <option value="agua">Agua</option>
+                <option value="luz">Luz</option>
+                <option value="internet">Internet</option>
+                <option value="telefono">Teléfono</option>
+                <option value="sube">Sube</option>
+                <option value="agip">Agip</option>
+                <option value="telecentro">Personal Flow</option>
+            </select>
+
+            <label for="numeroCuenta">Número de cuenta del servicio:</label>
+            <input type="text" id="numeroCuenta" name="numeroCuenta" placeholder="Ingrese el número de cuenta" required>
+
+            <label for="monto">Monto a pagar:</label>
+            <input type="number" id="monto" name="monto" min="1" step="0.01" placeholder="Ingrese el monto a pagar" required>
+
+            <button type="submit">Pagar Servicio</button>
+        </form> 
+    </div>
+    
+        <div>
+            <h3>Ultimas facturas pagadas</h3>
+            <table>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Número de Cuenta</th>
+                    <th>Monto</th>
+                    <th>Fecha</th>
+                </tr>
+                <tr>
+                    <td>Agua - AySA</td>
+                    <td>123456789</td>
+                    <td>$15,000.00</td>
+                    <td>15/09/2024</td>
+                </tr>
+                <tr>
+                    <td>Luz - Edesur</td>
+                    <td>987654321</td>
+                    <td>$23,000.50</td>
+                    <td>10/09/2024</td>
+                </tr>
+                <tr>
+                    <td>Internet - Fibertel</td>
+                    <td>456123789</td>
+                    <td>$55,000.75</td>
+                    <td>05/09/2024</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+    </main>
+
+
+    <footer>
+        <div>
+            <img src="/img/Logo blanco .png" alt="Logo Santander Blanco" width="250" />
+        </div>
+        <div class="footer-center">
+            <a href="#" style="color: white">Términos y condiciones</a>
+            <a href="#" style="color: white">Seguridad</a>
+            <a href="#" style="color: white">Contacto</a>
+        </div>
+        <p>2025 Banco Santander S.A. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
