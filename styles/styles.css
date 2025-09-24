@@ -88,10 +88,13 @@ padding-left: 2%;
     color: #fff; 
     border: none; 
     padding: 12px; 
-    margin-left: 6rem;
+    margin-left: 10%;
     border-radius: 4px; 
     font-size: 16px; 
     cursor: pointer;
+}
+.input-index2{
+    margin-left: 20px;
 }
 
 
@@ -280,6 +283,19 @@ button:hover {
     width: 120%;
     
 }
+/* ------------ Promociones ------------ */
+
+/* ---- Main ---- */
+.div-padre-promociones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+
+
+
 
 /* ------------ Footer ------------> */
 
@@ -297,4 +313,80 @@ footer{
     align-self: end;
     display: flex;
     gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .section-index{
+    margin-left: 5%;
+    }
+
+
+
+    .main-div-inicio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-inicio{
+        margin-left: 2rem;
+    }
+    .sectio-inicio-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+            a{
+                width: 50%;
+            }
+    }
+
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .gastos-tarjetas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-index {
+        width: 30%;
+        margin-left: 30%;    
+    }
+
+.div-padre-promociones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.gastos-tarjetas{
+    width: 85%;
+}
+
+.tabla-movil{
+    display: none;
+}
+.section-cuenta{
+    font-size: 11px;  
+
+
+
+
+
+
+
+}
 }
