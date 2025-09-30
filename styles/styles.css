@@ -46,7 +46,7 @@ padding-left: 2%;
 }
 
 
-/* -------------- Index -------------> */
+/* ------------------ Index ------------------ */
 /* ---- Header ---- */
 .item-index{
     font-size: 150%;
@@ -98,7 +98,7 @@ padding-left: 2%;
 }
 
 
-/* -------------- Inicio --------------> */
+/* ------------------ Inicio ------------------ */
 
 /* ---- Main ---- */
 
@@ -152,7 +152,7 @@ color: black;
 
 
 
-/* ------------ Cuenta ------------> */
+/* ------------------ Cuenta ------------------ */
 /* ---- Header ---- */
 
 .div-header-cuenta{
@@ -176,7 +176,7 @@ td{
 }
 
 
-/* ------------ Transferencias ------------> */
+/* ------------------ Transferencias ------------------ */
 /* ---- Body ---- */
     
 .container-transferencias { 
@@ -222,7 +222,7 @@ button:hover {
     background: #1c5980; 
 }
 
-/* ------------ Compra Divisa ------------ */
+/* ------------------ Compra Divisa ------------------ */
 
 /* ---- Main ---- */
  .compra-divisas {
@@ -269,7 +269,7 @@ button:hover {
     text-align: center;
 }
 
-/* ------------ Tarjeta ------------ */
+/* ------------------ Tarjeta ------------------ */
 
 /* ---- Main ---- */
 
@@ -283,7 +283,7 @@ button:hover {
     width: 120%;
     
 }
-/* ------------ Promociones ------------ */
+/* ------------------ Promociones ------------------ */
 
 /* ---- Main ---- */
 
@@ -355,7 +355,7 @@ margin-top: -10px;
     align-self: center;
 }
 
-/* ------------ Carrito ------------> */
+/* ------------------ Carrito ------------------ */
 .div-main-carrito{
     display: flex;
     flex-direction: column;
@@ -404,7 +404,7 @@ margin-top: -10px;
 
 
 
-/* ------------ Footer ------------> */
+/* ------------------ Footer ------------------ */
 
 footer{
     height: 110px;
@@ -422,13 +422,15 @@ footer{
     gap: 20px;
 }
 
-/*----------------------------------------------*/
-@media (max-width: 768px) {
+/*-------------------------------------------------------------------------------------*/
 
+@media (max-width: 768px) {
+    /* ------------------ Index ------------------ */
     .section-index{
     margin-left: 5%;
     }
 
+    /* ------------------ Inicio ------------------ */
     .main-div-inicio{
         flex-direction: column;
         align-items: center;
@@ -445,6 +447,7 @@ footer{
             }
     }
 
+    /* ------------------ Header ------------------ */
     .nav-header{
         display: flex;
         flex-direction: column;
@@ -455,12 +458,14 @@ footer{
         text-align: center;
     }
 
+    /* ------------------ Footer ------------------ */
     footer{
         flex-direction: column;
         height: auto;
         text-align: center;
     }
 
+    /* ------------------ Tarjeta ------------------ */
     .gastos-tarjetas{
         flex-direction: column;
         align-items: center;
@@ -477,10 +482,12 @@ footer{
     .tabla-movil{
         display: none;
     }
+    /* ------------------ Cuenta ------------------ */
     .section-cuenta{
         font-size: 11px;  
     }
 
+    /* ------------------ Servicios ------------------ */
     .tabla-servicios{
         display: flex;
         flex-direction: column;
@@ -494,6 +501,7 @@ footer{
             }
     }
 
+    /* ------------------ Promociones ------------------ */
     .div-padre-promociones{
         display: flex;   
         flex-direction: column;
@@ -507,6 +515,7 @@ footer{
         padding-bottom: 1rem;
     }
 
+    /* ------------------ Carrito ------------------ */
     .div-main-carrito{
         width: 80%;
     }
