@@ -306,13 +306,12 @@ button:hover {
         text-align: center;
         width: 200px;        
     }
-}
-.div-promocion{
-    background-color: rgb(50, 50, 255);
-    color: white;
-    height: 8%;
-    border-radius: 1rem 1rem 0 0;
-    
+    .div-promocion{
+        background-color: rgb(50, 50, 255);
+        color: white;
+        height: 8%;
+        border-radius: 1rem 1rem 0 0;
+    }
 }
 .button-promociones{
     background-color: rgb(255, 78, 78); 
