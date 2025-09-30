@@ -528,7 +528,12 @@ footer{
         text-align: center;
         gap: 5px;
     }
-
+    /*---------------Index-------------*/
+    .button-index {
+        width: 20%;
+        margin-left: 15%;    
+    }
+    /*---------------------------*/
     /*---------------Inicio-------------*/
     .sectio-inicio-2{
         display: grid;
