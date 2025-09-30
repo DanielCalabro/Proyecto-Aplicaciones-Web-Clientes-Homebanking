@@ -525,7 +525,7 @@ footer{
     }
 
 }
-@media (min-width:768px)and(max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1200px) {
 
     .nav-header{
         display: flex;
@@ -564,9 +564,20 @@ footer{
     }
     /*---------------------------*/
 
+    /* ------------------ Promociones ------------------ */
     .div-padre-promociones{
         grid-template-columns: repeat(3, 1fr);
     }
+    .section-inicio-promociones{
+        margin: 0 10% 0 10%;
+    }
+    .div-buscar-ordenar{
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    /* ------------------ Carrito ------------------ */
+
     .div-main-carrito{
         width: 80%;
     }
